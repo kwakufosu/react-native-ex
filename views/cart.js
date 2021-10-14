@@ -1,6 +1,6 @@
 import React from "react"
-import {View, Text,Image,StyleSheet, TouchableOpacity} from "react-native"
-import { Ionicons,FontAwesome,AntDesign } from '@expo/vector-icons';
+import {View, Text,Image, TouchableOpacity} from "react-native"
+import { Ionicons,FontAwesome, } from '@expo/vector-icons';
 
 
 export  default function Home() {
@@ -239,7 +239,7 @@ export  default function Home() {
          paddingTop:0,
         paddingHorizontal:20,
         fontFamily:'sans-serif',
-         width:600,
+         width:580,
         borderRadius:20,
         backgroundColor:"#d0d3d4"
        
@@ -270,7 +270,7 @@ export  default function Home() {
             </View>
             
           </View>
-          <Text>---------------------------------------------------------------------------------------------</Text>
+          <Text>------------------------------------------------------------------------------------------</Text>
           <View style={{flexDirection:"row",marginTop:10}}>
               <View><Text style={{fontWeight:"bold"}}>Total</Text></View>
               <View>
